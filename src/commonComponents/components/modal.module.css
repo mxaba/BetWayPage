@@ -1,0 +1,41 @@
+.modalPopWrapper {
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  background-color: var(--white-color);
+  position: relative;
+  max-width: 600px;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  margin: var(--padding-md);
+}
+
+.title {
+  font-weight: 700;
+  font-size: 16pt;
+}
+
+
+.closeModalBtn {
+  position: absolute;
+  font-size: 25px;
+  color: var(--main-green-color);
+  right: 0;
+  top: 0;
+  margin: var(--padding-md);
+  cursor: pointer;
+  font-weight: normal;
+  
+}

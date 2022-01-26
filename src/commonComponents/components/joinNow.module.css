@@ -1,0 +1,28 @@
+.containerFooter {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.contentFooterl {
+  background-color: var(--black-color);
+  color: var(--white-color);
+  opacity: 0.74;
+  padding: var(--padding-md);
+  text-align: center;
+}
+
+.joinBtn {
+  cursor: pointer;
+  background-color: var(--main-green-color);
+  color: var(--white-color);
+  padding: var(--padding-sm);
+  opacity: 100%;
+  width: 19%;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.contentFooterP {
+  font-size: 0.7rem;
+}

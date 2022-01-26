@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: var(--spacing-lg);
+  border-top: 1px solid #cacaca;
+  align-items: center;
+}
+
+.container p {
+  text-align: center;
+  
+}
+
+.passwordUsername {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: var(--padding-sm);
+  width: 100%;
+}
+
+.loginBtn {
+  background-color: var(--main-green-color);
+  color: var(--white-color);
+  padding: var(--padding-md);
+  width: 30%;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.forgotCredentials {
+  color: var(--main-green-color);
+  font-weight: 350;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.registerHere {
+  color: var(--main-green-color);
+  text-decoration: underline dotted;
+  cursor: pointer;
+  
+}
+
+.register {
+  text-align: center;
+  margin-bottom: var(--padding-md);
+}
+
+.formError {
+  color: red;
+  margin-bottom: var(--padding-sm);
+}

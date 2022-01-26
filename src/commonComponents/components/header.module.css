@@ -1,0 +1,24 @@
+.container {
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  display: flex;
+  padding: 0.7rem;
+}
+
+.loginBtn {
+  background-color: var(--main-green-color);
+  font-weight: bold;
+  color: var(--white-color);
+  padding: var(--padding-sm) var(--padding-md);
+  margin-right: var(--padding-sm);
+  cursor: pointer;
+}
+
+.signUpBtn {
+  background-color: var(--white-color);
+  cursor: pointer;
+  color: var(--main-green-color);
+  font-weight: bold;
+  padding: var(--padding-sm) var(--padding-md);
+}
