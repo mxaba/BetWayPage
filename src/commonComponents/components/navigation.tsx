@@ -1,7 +1,7 @@
 import React from "react";
 import { useLocation, Link } from "react-router-dom";
 
-import { topBarRoutes } from "./../constants";
+import { topBarRoutes } from "../topBarRoutes";
 
 import styles from "./navigation.module.css";
 

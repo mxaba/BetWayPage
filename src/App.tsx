@@ -6,7 +6,7 @@ import { store } from "./store/store";
 import { Header } from "./commonComponents/components/header";
 import { Navigation } from "./commonComponents/components/navigation";
 import { JoinNow } from "./commonComponents/components/joinNow";
-import { topBarRoutes } from "./commonComponents/constants";
+import { topBarRoutes } from "./commonComponents/topBarRoutes";
 
 import styles from "./app.module.css";
 

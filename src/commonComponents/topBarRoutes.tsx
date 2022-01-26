@@ -1,4 +1,4 @@
-import { Landing } from "./../shared/landing";
+import { Landing } from "../shared/landing";
 
 interface ITopBarRoutes {
   route: string;
