@@ -1,4 +1,8 @@
-import { userClient } from "../commonComponents/httpClients/userClient";
+import axios from "axios";
+
+const userClient = axios.create({
+  baseURL: "http://localhost:5000"
+});
 
 export const userApi = {
   async login(body: { email: string; password: string }) {

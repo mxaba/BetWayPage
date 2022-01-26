@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { userApi } from "../../api/userApi";
-import { inputValidate } from "../../commonComponents/utils/validation";
+import { userApi } from "../../userApi";
+import { inputValidate } from "../../commonComponents/utils/inputValidation";
 import { loginAction } from "../../store/actions/user";
 
 import styles from "./index.module.css";
