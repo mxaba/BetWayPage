@@ -5,7 +5,7 @@ import { Modal } from "./modal";
 import { logoutAction } from "./../../store/actions/user";
 import { AppRootState } from "./../../store/reducers";
 
-import betwayLogo from "./../utils/Betway_White.png";
+import betwayLogo from "./../../utils/Betway_White.png";
 
 import styles from "./header.module.css";
 import { Login } from "./../../shared/login";
