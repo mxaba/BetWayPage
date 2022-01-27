@@ -1,12 +1,9 @@
 import axios from "axios";
 
-// const userClient = axios.create({
-//   baseURL: "http://localhost:5000"
-// });
-
 const userClient = axios.create({
-  baseURL: ''
+  baseURL: "http://localhost:5000"
 });
+
 
 export const userApi = {
   async login(body: { email: string; password: string }) {
