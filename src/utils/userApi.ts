@@ -4,7 +4,6 @@ const userClient = axios.create({
   baseURL: "http://localhost:5000"
 });
 
-
 export const userApi = {
   async login(body: { email: string; password: string }) {
     try {
