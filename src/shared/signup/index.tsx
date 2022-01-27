@@ -3,9 +3,9 @@ import { userApi } from "../../userApi";
 import { inputValidate } from "../../commonComponents/utils/inputValidation";
 import { loginAction } from "../../store/actions/user";
 
-import styles from "./index.module.css";
+import styles from "./../login/index.module.css";
 
-export function Login({ closeOpenModal }: { closeOpenModal?: () => void },) {
+export function SignUp({ closeOpenModal }: { closeOpenModal?: () => void },) {
   const [loginDetails, setLoginUsernamePassword] = useState({
     username: "",
     password: ""
@@ -49,7 +49,7 @@ export function Login({ closeOpenModal }: { closeOpenModal?: () => void },) {
 
   return (
     <>
-      <div className={styles.register}>New Customer? <span className={styles.registerHere}> Register here</span></div>
+      <div className={styles.register}>Have an account <span className={styles.registerHere}> Login here</span></div>
       <div className={styles.container}>
         <div className={styles.passwordUsername}>
           <label htmlFor="username">Username</label>
@@ -73,9 +73,8 @@ export function Login({ closeOpenModal }: { closeOpenModal?: () => void },) {
         </div>
         {formError && <div className={styles.formError}>{formError}</div>}
         <button className={styles.loginBtn} onClick={onClickHandleLogin}>
-          Login
+          Sign Up
         </button>
-        <p className={styles.forgotCredentials}>Forgot Username/Password</p>
       </div>
     </>
   );

@@ -20,7 +20,7 @@ function App() {
           <Navigation />
           <Routes>
             {topBarRoutes.map(route => (
-              <Route key={route.name} path={route.route} element={route.component} />
+              <Route key={route.name} path={route.route}/>
             ))}
           </Routes>
         </div>

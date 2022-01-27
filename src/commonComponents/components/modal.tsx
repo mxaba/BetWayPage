@@ -3,10 +3,10 @@ import styles from "./modal.module.css";
 interface IModalProps {
   title: string;
   content: React.ReactNode;
-  onClose: () => void;
+  onClickClose: () => void;
 }
 
-export function Modal({ title, content, onClose }: IModalProps) {
+export function Modal({ title, content, onClickClose: onClose }: IModalProps) {
   return (
     <div className={styles.modalPopWrapper}>
       <div className={styles.container}>

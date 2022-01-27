@@ -26,9 +26,9 @@ export function JoinNow() {
       </div>
       {modalIsOpen && (
         <Modal
-          title="Join Now"
+          title="Join-Now"
           content={<JoinNowModal />}
-          onClose={() => setModalToTrueAndFalse(false)}
+          onClickClose={() => setModalToTrueAndFalse(false)}
         />
       )}
     </div>
