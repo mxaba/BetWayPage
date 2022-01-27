@@ -1,7 +1,11 @@
 import axios from "axios";
 
+// const userClient = axios.create({
+//   baseURL: "http://localhost:5000"
+// });
+
 const userClient = axios.create({
-  baseURL: "http://localhost:5000"
+  baseURL: ''
 });
 
 export const userApi = {

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { inputValidate } from "../../commonComponents/utils/inputValidation";
+import { inputValidate } from "../../utils/inputValidation";
 
 import styles from "./../login/index.module.css";
 
